@@ -21,8 +21,8 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .word-wrap {
+    word-wrap: break-word;
   }
 }
 
@@ -82,11 +82,11 @@ body {
   }
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
